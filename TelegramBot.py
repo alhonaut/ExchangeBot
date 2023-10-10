@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from telebot import types
 
-bot = telebot.TeleBot('1935772262:AAHaap-tlxJxOsDzzI85c0ApfP4_8hmzDVw')
+bot = telebot.TeleBot('TOKEN')
 
 keyboard = types.ReplyKeyboardMarkup(row_width = 4)
 
